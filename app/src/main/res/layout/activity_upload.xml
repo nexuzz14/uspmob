@@ -1,0 +1,102 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAE9E5"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".UploadActivity"
+    >
+
+    <!-- back -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="16dp">
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_centerVertical="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/back_icon"
+            android:background="@android:color/transparent"
+            android:contentDescription="backbtn" />
+
+
+
+    </RelativeLayout>
+
+    <!-- Bagian untuk Upload File -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Gambar Placeholder untuk Upload File -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/uploadImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_upload"
+                android:contentDescription="Upload File"
+                android:scaleType="centerInside" />
+
+            <ImageView
+                android:layout_width="68dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:src="@drawable/upload_logo"
+                android:textColor="#FFA726" />
+        </FrameLayout>
+
+        <!-- Input Judul Foto -->
+        <EditText
+            android:id="@+id/judulfoto"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_upload"
+            android:hint="Judul Foto"
+            android:padding="12dp"
+            android:textColorHint="#626f78"
+            android:textSize="16sp" />
+
+        <!-- Input Deskripsi Foto -->
+        <EditText
+            android:id="@+id/deskripsifoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_upload"
+            android:gravity="top|start"
+            android:hint="Deskripsi Foto"
+            android:padding="12dp"
+            android:textColorHint="#626f78"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/uploadbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="#Fa1"
+            android:text="Upload"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- Tombol Upload di Bawah -->
+
+</LinearLayout>

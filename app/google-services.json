@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1054267461263",
+    "project_id": "unstockphotograph",
+    "storage_bucket": "unstockphotograph.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054267461263:android:557264d7b54c8627306afa",
+        "android_client_info": {
+          "package_name": "com.example.unstockphotograph"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB32IIZzZ77YHdtfmQKYNnuOtci5TN1PoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

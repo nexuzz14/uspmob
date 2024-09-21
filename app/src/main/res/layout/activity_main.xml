@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bglog"
+    tools:context=".MainActivity">
+
+    <!-- Logo dan Teks -->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="85dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        &lt;!&ndash; Logo Image &ndash;&gt;-->
+
+<!--        &lt;!&ndash; Teks Judul &ndash;&gt;-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/logoImageView"-->
+<!--            android:layout_width="232dp"-->
+<!--            android:layout_height="103dp"-->
+<!--            android:src="@drawable/usplogo" />-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    &lt;!&ndash; Login Form &ndash;&gt;-->
+
+<!--    &lt;!&ndash; Footer Gambar &ndash;&gt;-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="380dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="279dp"-->
+<!--        android:orientation="vertical"-->
+<!--        android:paddingLeft="30dp"-->
+<!--        android:paddingRight="30dp">-->
+
+<!--        &lt;!&ndash;email font&ndash;&gt;-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Email"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textColor="#FFA726"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="10dp" />-->
+
+<!--        &lt;!&ndash; Email EditText &ndash;&gt;-->
+<!--        <EditText-->
+<!--            android:id="@+id/emailEditText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:hint="UnStockPhotograph@gmail.com"-->
+<!--            android:textStyle="italic"-->
+<!--            android:inputType="textEmailAddress"-->
+<!--            android:padding="12dp" />-->
+
+<!--        &lt;!&ndash;Password font&ndash;&gt;-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Password"-->
+<!--            android:textSize="18sp"-->
+<!--            android:textColor="#FFA726"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_marginTop="10dp" />-->
+
+<!--        &lt;!&ndash; Password EditText &ndash;&gt;-->
+<!--        <EditText-->
+<!--            android:id="@+id/passwordEditText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:hint="Password"-->
+<!--            android:textStyle="italic"-->
+<!--            android:inputType="textPassword"-->
+<!--            android:padding="12dp" />-->
+
+<!--        &lt;!&ndash; Login Button &ndash;&gt;-->
+
+<!--        &lt;!&ndash; Register Text &ndash;&gt;-->
+
+<!--        <Button-->
+<!--            android:id="@+id/loginButton"-->
+<!--            android:layout_width="215dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:backgroundTint="#FFA726"-->
+<!--            android:text="Login"-->
+<!--            android:textColor="#FFFFFF"-->
+<!--            android:textSize="20sp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/registerTextView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="9dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="New User? Register Now"-->
+<!--            android:textColor="#FFA726"-->
+<!--            android:textSize="15sp" />-->
+<!--    </LinearLayout>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/footerImageView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="20dp" />-->
+
+</RelativeLayout>
